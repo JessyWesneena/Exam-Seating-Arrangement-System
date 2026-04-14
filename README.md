@@ -23,6 +23,7 @@ Clone the repository
 git clone https://github.com/JessyWesneena/Exam-Seating-Arrangement-System.git
 
 ## 📸 Screenshots
+## 📸 Screenshots
 
 ### Index
 ![Index](screenshots/index.png)
@@ -37,4 +38,4 @@ git clone https://github.com/JessyWesneena/Exam-Seating-Arrangement-System.git
 ![Generated Seating](screenshots/generated_seating.png)
 
 ### Print Generated Seating
-![Print Seating](screenshots/print_seating.png)
+![Print Generated Seating](screenshots/print_generated_seating.png)
