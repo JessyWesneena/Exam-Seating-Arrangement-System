@@ -21,3 +21,11 @@ This project ensures efficient management of exam halls, seating plans, and stud
 # Installation & Setup
 Clone the repository
 git clone https://github.com/JessyWesneena/Exam-Seating-Arrangement-System.git
+##  Screenshots
+
+![Index](screenshots/Index.png)
+![Admin Login](screenshots/AdminLogin.png)
+![Exam Seating Selection ](screenshots/ExamSeatingSelection.png)
+![Generated Seating](screenshots/GeneratedSeating.png)
+![ Print Generated Seating](screenshots/PrintGeneratedSeating.png)
+
