@@ -1,0 +1,130 @@
+/* Import modern font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Body & background */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #89f7fe, #66a6ff);
+}
+
+/* Centered card container */
+.center {
+  width: 400px;
+  padding: 40px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.center:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+.center h1 {
+  font-size: 2em;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+/* Buttons */
+button {
+  padding: 12px 30px;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 1em;
+  color: #b33d74;
+  background: linear-gradient(45deg, #ff6a00, #ee0979);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+/* Input fields & select boxes */
+input[type=text], input[type=password], select {
+  width: 80%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus, select:focus {
+  border-color: #ff6a00;
+  box-shadow: 0 0 8px rgba(255,106,0,0.3);
+}
+
+/* Back button */
+.back-button {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #333;
+}
+
+.back-button svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  fill: #333;
+  transition: fill 0.2s;
+}
+
+.back-button:hover {
+  color: #000;
+}
+
+.back-button:hover svg {
+  fill: #000;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+table th {
+  background: #ff6a00;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background: #f4f4f4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .center { width: 90%; padding: 30px; }
+  button, input[type=text], input[type=password], select { width: 100%; }
+}
