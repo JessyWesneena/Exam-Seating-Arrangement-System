@@ -3,11 +3,11 @@ A web-based application built to simplify and automate the process of assigning 
 This project ensures efficient management of exam halls, seating plans, and student data using PHP, MySQL, HTML, CSS, and JavaScript.
 
 # Features
--Dynamic Seat Allocation — Automatically generates seating based on the number of students and rooms.
--Room & Student Management — Admins can easily add, edit, or remove student and room data.
--Printable Seating Plan — Generates an organized seating layout for offline reference.
--Admin Authentication — Secure login system for exam coordinators.
--User-Friendly Interface — Simple and responsive front-end design.
+- Dynamic Seat Allocation — Automatically generates seating based on the number of students and rooms.
+- Room & Student Management — Admins can easily add, edit, or remove student and room data.
+- Printable Seating Plan — Generates an organized seating layout for offline reference.
+- Admin Authentication — Secure login system for exam coordinators.
+- User-Friendly Interface — Simple and responsive front-end design.
 ## 🛠️ Tech Stack
 
 | Category          | Technology                         |
@@ -20,4 +20,4 @@ This project ensures efficient management of exam halls, seating plans, and stud
 
 # Installation & Setup
 Clone the repository
-git clone 
+git clone https://github.com/JessyWesneena/Exam-Seating-Arrangement-System.git
